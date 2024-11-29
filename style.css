@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+nav h5{
+    color: green;
+}
+nav .heading{
+    display: flex;
+    gap: 30px;
+}
+nav .heading p{
+    font-weight: 600;
+}
+button{
+    padding: 10px 18px;
+    background-color: green;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.content{
+   height: 30%;
+    width: 100%;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 50%;
+}
+.left h1{
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.right{
+    height: 70%;
+    width: 50%;
+}
+.right p{
+    padding: 50px;
+    font-size: 18-px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.image1{
+    height: 40%;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+.image2{
+    height: 30%;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+.image3{
+    height: 30%;
+    position: absolute;
+    top: 60%;
+    left: 65%;
+}
+.image4{
+    height: 20%;
+    position: absolute;
+    top: 60%;
+    left: 85%;
+}
